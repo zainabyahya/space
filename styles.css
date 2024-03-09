@@ -48,8 +48,9 @@ li {
     padding: 0;
     font-weight: 900;
     height: 100%;
-
-    /* Change me */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #space-img {
@@ -59,8 +60,9 @@ li {
 /* Hero section */
 #hero-section {
     height: 450px;
-
-    /* Change me */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-text-container {
@@ -68,7 +70,11 @@ li {
     padding: 20px 40px;
     box-shadow: 0px 0px 20px 20px var(--galacticBlue);
 
-    /* Change me */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #hero-title {
@@ -77,7 +83,10 @@ li {
 
 /* Main section */
 #main-section {
-    /* Change me */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 /* Intro section */
@@ -85,14 +94,19 @@ li {
     width: 60%;
     text-align: center;
 
-    /* Change me */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Planets Cards */
 #planets-cards {
     width: 90%;
-
-    /* Change me */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
 }
 
 /* Planet Card */
@@ -105,6 +119,9 @@ li {
     box-shadow: 0px 0px 10px 2px var(--moonlitGray);
 
     /* Change me */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 #mercury {
@@ -158,23 +175,31 @@ li {
 
 #moon-solar-section {
     width: 90%;
-
-    /* Change me */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 #moon-solar-intro {
-    /* Change me */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #moon-solar-cards {
-    /* Change me */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 #moon-and-satellites-container,
 #beyond-solar-system {
     text-align: center;
-
-    /* Change me */
+    flex: 45%;
 }
 
 #beyond-solar-img,
@@ -196,15 +221,20 @@ li {
     font-size: small;
     margin: auto;
 
-    /* Change me */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer-left-content {
-    /* Change me */
+    align-self: center;
 }
 
 #footer-links {
-    /* Change me */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 #vertical-line {
