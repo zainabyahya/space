@@ -1,0 +1,212 @@
+:root {
+    --galacticBlue: rgb(0, 31, 63);
+    --stellarSilver: rgb(204, 204, 204);
+    --nebulaPurple: rgb(138, 43, 226);
+    --celestialTeal: rgb(0, 128, 128);
+    --solarFlareOrange: rgb(255, 165, 0);
+    --moonlitGray: rgb(192, 192, 192);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--galacticBlue);
+    color: var(--stellarSilver);
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    cursor: pointer;
+}
+
+/* Header Section */
+#header {
+    background-image: linear-gradient(to bottom,
+            rgba(205, 164, 164, 0.1),
+            rgba(0, 31, 63, 1)),
+        url("./assets/pexels-stein-egil-liland-3374210.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    height: 150px;
+}
+
+#nav-list {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    height: 100%;
+
+    /* Change me */
+}
+
+#space-img {
+    width: 60px;
+}
+
+/* Hero section */
+#hero-section {
+    height: 450px;
+
+    /* Change me */
+}
+
+#hero-text-container {
+    border: 1px solid var(--stellarSilver);
+    padding: 20px 40px;
+    box-shadow: 0px 0px 20px 20px var(--galacticBlue);
+
+    /* Change me */
+}
+
+#hero-title {
+    font-size: 40px;
+}
+
+/* Main section */
+#main-section {
+    /* Change me */
+}
+
+/* Intro section */
+#intro-section {
+    width: 60%;
+    text-align: center;
+
+    /* Change me */
+}
+
+/* Planets Cards */
+#planets-cards {
+    width: 90%;
+
+    /* Change me */
+}
+
+/* Planet Card */
+.planet-card {
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 10px 2px var(--moonlitGray);
+
+    /* Change me */
+}
+
+#mercury {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/mercury.png);
+}
+
+#venus {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/venus.png);
+}
+
+#mars {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/mars.png);
+}
+
+#jupiter {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/jupiter.webp);
+}
+
+#saturn {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/Saturnx.png);
+}
+
+#uranus {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/uranus.png);
+}
+
+#neptune {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 31, 63, 0),
+            rgba(0, 31, 63, 1)),
+        url(./assets/neptune.png);
+}
+
+#moon-solar-section {
+    width: 90%;
+
+    /* Change me */
+}
+
+#moon-solar-intro {
+    /* Change me */
+}
+
+#moon-solar-cards {
+    /* Change me */
+}
+
+#moon-and-satellites-container,
+#beyond-solar-system {
+    text-align: center;
+
+    /* Change me */
+}
+
+#beyond-solar-img,
+#moon-and-satellite-img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 1px var(--moonlitGray);
+}
+
+.horizontal-line {
+    border-bottom: 1px solid var(--moonlitGray);
+    width: 60%;
+    box-shadow: 0px 0px 10px 1px var(--moonlitGray);
+    margin: 50px auto;
+}
+
+/* Footer Section */
+#footer-section {
+    max-width: 650px;
+    font-size: small;
+    margin: auto;
+
+    /* Change me */
+}
+
+#footer-left-content {
+    /* Change me */
+}
+
+#footer-links {
+    /* Change me */
+}
+
+#vertical-line {
+    margin: 0px 10px;
+}
